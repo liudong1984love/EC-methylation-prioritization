@@ -2,15 +2,13 @@ cff-version: 1.2.0
 message: "If you use this code, please cite both the manuscript and this archived version."
 title: "Code accompanying: Population- and compartment-informed in silico prioritization of DNA methylation markers for endometrial cancer (BOLL and ZSCAN12 candidates for premenopausal validation)"
 authors:
-  - family-names: "[FAMILY NAME]"
-    given-names: "[GIVEN NAME]"
+  - family-names: "Liu"
+    given-names: "Dong"
     affiliation: "Zhongshan School of Medicine, Sun Yat-sen University"
-    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
   - family-names: "Chen"
     given-names: "Yubing"
     affiliation: "Zhongshan School of Medicine, Sun Yat-sen University"
-    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
-version: v1.0.0
+version: v1.0.1
 date-released: "2026-09-06"
 license: MIT
 keywords:
@@ -21,5 +19,5 @@ keywords:
   - abnormal uterine bleeding
   - BOLL
   - ZSCAN12
-repository-code: "[GITHUB URL — fill after repo creation]"
-# doi: "[ZENODO VERSION DOI — fill after archiving]"
+repository-code: "https://github.com/liudong1984love/EC-methylation-prioritization"
+doi: "10.5281/zenodo.22522900"
