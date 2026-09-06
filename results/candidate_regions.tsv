@@ -1,0 +1,3 @@
+region	chr_hg38	start_hg38	end_hg38	source	anchor_probes	dmr_hg19	status
+BOLL	chr2	197785878	197786773	bumphunter cluster, chromosome-wise empirical P<=0.002 (B=500)	cg24589459;cg07495363	chr2:198649780-198651576 (12 CpGs, 1796 bp)	lead region; borderline at the 0.15 background gate (bootstrap CI crosses gate)
+ZSCAN12	chr6	28399501	28400120	bumphunter cluster, chromosome-wise empirical P<=0.002 (B=500); DMR hg38 chr6:28399501-28400362	cg27577527 (hg38 pos 28399766; absent from EPIC)	chr6:28367279-28367898 (9 CpGs, 619 bp)	lead region; four probe-level dimensions passed, intended-use-proxy dimension supported at region level by EPIC substitutes cg23164203/cg20275132/cg25666433
