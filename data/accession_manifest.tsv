@@ -1,0 +1,12 @@
+dataset	platform	composition	role_in_study	access_and_processing
+TCGA-UCEC (UCSC Xena)	450K	431 tumours, 46 adjacent normals; 28 premenopausal	Discovery; tumour positivity	UCSC Xena: TCGA.UCEC.sampleMap_HumanMethylation450 (precomputed beta values); clinical via Xena clinicalMatrix and cBioPortal PanCanAtlas subtype annotations
+GSE67116	450K	33 primary EC, 8 hyperplasias, 53 metastases	Discovery; consistency	GEO GSE67116; IDATs via EBI BioStudies mirror E-GEOD-67116 (local network restricts NCBI); processed with minfi/noob
+GSE73949	450K	17 normal premenopausal endometrium	Background: healthy premenopausal	GEO GSE73949; IDATs via EBI BioStudies mirror E-GEOD-73949; processed with minfi/noob
+GSE223817	EPIC	347 controls, 637 endometriosis	Background: symptomatic/benign (intended-use proxy)	EWAS Data Hub, GMQN-normalized beta values; union-rule gate computed on the 347 controls
+GSE90060	450K	17 paired early/mid-secretory	Background: menstrual cycle	EWAS Data Hub normalized beta values; donor pairs reconstructed by methylation fingerprinting
+GSE46306	450K	20 normal cervical scrapes (HPV-negative)	Background: cervix	EWAS Data Hub normalized beta values
+GSE35069	450K	60 purified blood cell samples	Background: blood cells	EWAS Data Hub normalized beta values
+GSE136791	EPIC	103 samples (69 endometrioid carcinoma, 34 hyperplasia)	Tissue-cohort corroboration	GEO GSE136791 (EPIC beta matrix)
+GSE178610	EPIC	80 endometrioid EC (49 fresh-frozen, 31 FFPE)	Tissue-cohort corroboration	GEO GSE178610 (EPIC beta matrix)
+GSE155760	EPIC	23 EEC, 10 USC, 36 cancer-free controls (13 endometrial mucosa)	Tissue-cohort corroboration	GEO GSE155760 (EPIC beta matrix)
+GSE93589	450K	9 endometrial carcinomas	Tissue-cohort corroboration (450K-only probes)	GEO GSE93589 (450K beta matrix)
