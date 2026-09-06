@@ -1,0 +1,27 @@
+probe	gene	chr	pos	island_context	pass_snp_filter	dmr_region_hg19	set	note	genome_build
+cg27577527	ZSCAN12	chr6	28367544	Island	TRUE	chr6:28367279-28367898 (9cpgs,619bp)	23-probe experimental pool		hg19
+cg24589459	BOLL	chr2	198651347	Island	TRUE	chr2:198649780-198651576 (12cpgs,1796bp)	23-probe experimental pool		hg19
+cg07495363	BOLL	chr2	198651076	Island	TRUE	chr2:198649780-198651576 (12cpgs,1796bp)	23-probe experimental pool		hg19
+cg18507379	PCDHGA4	chr5	140787507	Island	TRUE	chr5:140787013-140787864 (6cpgs,851bp)	23-probe experimental pool		hg19
+cg25340966	TBX15	chr1	119532195	Island	TRUE	chr1:119531625-119532925 (17cpgs,1300bp)	23-probe experimental pool		hg19
+cg05099508	SPAG6	chr10	22634432	Island	TRUE	chr10:22633916-22635028 (14cpgs,1112bp)	23-probe experimental pool		hg19
+cg23180938	CDO1	chr5	115152485	Island	TRUE	chr5:115152019-115152938 (11cpgs,919bp)	23-probe experimental pool		hg19
+cg18617005	PCDHGA4	chr5	140787504	Island	TRUE	chr5:140787013-140787864 (6cpgs,851bp)	23-probe experimental pool		hg19
+cg08189989		chr2	105459164	Island	TRUE	chr2:105459097-105462246 (14cpgs,3149bp)	23-probe experimental pool		hg19
+cg24504927		chr12	85667353	OpenSea	TRUE	chr12:85667353-85667616 (3cpgs,263bp)	23-probe experimental pool		hg19
+cg15790037	ARL5C	chr17	37321490	Island	TRUE	chr17:37321201-37322028 (5cpgs,827bp)	23-probe experimental pool		hg19
+cg00370229		chr6	29521602	Island	TRUE	chr6:29520965-29521803 (35cpgs,838bp)	23-probe experimental pool		hg19
+cg16439198	CYP1B1	chr2	38302674	Island	TRUE	chr2:38301438-38303219 (10cpgs,1781bp)	23-probe experimental pool		hg19
+cg10109500	GHSR	chr3	172165884	Island	TRUE	chr3:172165517-172167527 (12cpgs,2010bp)	23-probe experimental pool		hg19
+cg10812708		chr6	27647713	N_Shore	TRUE	chr6:27647713-27648605 (8cpgs,892bp)	23-probe experimental pool		hg19
+cg01075271		chr14	38080314	Island	TRUE	chr14:38080240-38080904 (5cpgs,664bp)	23-probe experimental pool		hg19
+cg24851364		chr10	57390306	N_Shore	TRUE	chr10:57389676-57391271 (10cpgs,1595bp)	23-probe experimental pool		hg19
+cg03749016	NKX2-6	chr8	23564591	Island	TRUE	chr8:23562918-23564717 (15cpgs,1799bp)	23-probe experimental pool		hg19
+cg05639246		chr6	10393778	S_Shelf	TRUE		23-probe experimental pool		hg19
+cg11475550	NPY	chr7	24324570	Island	TRUE	chr7:24323128-24325371 (15cpgs,2243bp)	23-probe experimental pool		hg19
+cg10617784	VAX2	chr2	71134586	Island	TRUE	chr2:71134190-71134936 (7cpgs,746bp)	23-probe experimental pool		hg19
+cg18096722		chr8	70947218	Island	TRUE	chr8:70946891-70947440 (5cpgs,549bp)	23-probe experimental pool		hg19
+cg20998319		chr2	157177345	Island	TRUE	chr2:157176106-157179512 (15cpgs,3406bp)	23-probe experimental pool		hg19
+cg25666433	ZSCAN12	chr6	28399501				extended sensitivity set (26 = 23 + 3)	EPIC-compatible substitute for cg27577527 (absent from EPIC)	hg38
+cg23164203	ZSCAN12	chr6	28399697				extended sensitivity set (26 = 23 + 3)	EPIC-compatible substitute for cg27577527 (absent from EPIC)	hg38
+cg20275132	ZSCAN12	chr6	28399971				extended sensitivity set (26 = 23 + 3)	EPIC-compatible substitute for cg27577527 (absent from EPIC)	hg38
