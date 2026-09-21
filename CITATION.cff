@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite both the manuscript and this archived version."
-title: "Code accompanying: Population- and compartment-informed in silico prioritization of DNA methylation markers for endometrial cancer (BOLL and ZSCAN12 candidates for premenopausal validation)"
+title: "Code accompanying: Population- and compartment-informed prioritization of DNA methylation markers for endometrial cancer (an in silico evaluation of BOLL and ZSCAN12)"
 authors:
   - family-names: "Liu"
     given-names: "Dong"
@@ -8,8 +8,8 @@ authors:
   - family-names: "Chen"
     given-names: "Yubing"
     affiliation: "Zhongshan School of Medicine, Sun Yat-sen University"
-version: v1.0.1
-date-released: "2026-09-06"
+version: v1.0.2
+date-released: "2026-09-21"
 license: MIT
 keywords:
   - endometrial cancer
