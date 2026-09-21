@@ -57,7 +57,7 @@ checks = [
     ("proxy overuse removed", text.count("intended-use-proxy") <= 1),
     ("abstract <=350", aw <= 350),
     ("AH disclaimer kept", "performance for atypical hyperplasia cannot be established" in text),
-    ("DOI kept", "10.5281/zenodo.22526552" in text),
+    ("DOI kept", "10.5281/zenodo.22868103" in text),
     ("no authors", "Dong Liu" not in full and "Yubing Chen" not in full),
     ("PMID count", text.count("PMID:") >= 26),
 ]
