@@ -1,0 +1,477 @@
+probe,gene,disposition,P_discovery_retained,P_gate1_pass,P_gate2_pass,P_gate3_pass,P_gate4_pass,P_TierA
+cg27577527,ZSCAN12;ZSCAN12,Tier A lead (ZSCAN12 anchor),0.53,1.0,,1.0,1.0,0.53
+cg24589459,BOLL;BOLL,Tier A lead (BOLL anchor),0.6445,1.0,1.0,0.734,1.0,0.4665
+cg06014401,EOMES,Eliminated at healthy-endometrium background screen,0.9975,0.3905,1.0,1.0,1.0,0.3885
+cg18196782,KIAA1383,Eliminated at healthy-endometrium background screen,0.9045,0.2815,,1.0,1.0,0.256
+cg10617784,VAX2,Region-coverage pool probe,0.808,0.73,1.0,0.742,0.3225,0.1515
+cg24961583,,Eliminated at healthy-endometrium background screen,0.661,0.377,0.9925,1.0,0.4715,0.1085
+cg24851364,,Region-coverage pool probe,0.785,1.0,1.0,1.0,0.0565,0.045
+cg24304093,,Eliminated at healthy-endometrium background screen,0.99,0.033,,0.746,1.0,0.0225
+cg11751707,CYP1B1,Eliminated at healthy-endometrium background screen,0.907,0.516,,0.7265,0.0385,0.0135
+cg18488157,,Eliminated at healthy-endometrium background screen,0.7665,0.002,,0.7325,0.335,0.001
+cg01978237,SIM1,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg11294513,ZNF154,Eliminated at healthy-endometrium background screen,0.579,0.0,0.0,0.18,0.0,0.0
+cg19125370,,Eliminated at healthy-endometrium background screen,0.6085,0.0,,0.0,0.0,0.0
+cg08898155,PON3,Eliminated at healthy-endometrium background screen,0.7075,0.0,0.0,0.0135,0.0,0.0
+cg14979301,,Eliminated at healthy-endometrium background screen,0.827,0.0,0.0,0.0,1.0,0.0
+cg16042259,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.996,0.0,0.0,0.0
+cg00370229,,Region-coverage pool probe,0.505,0.735,0.0,1.0,1.0,0.0
+cg24980653,,Passed healthy screen; eliminated at four-gate triage,0.5125,0.7185,0.0,0.146,0.0,0.0
+cg23905164,,Eliminated at healthy-endometrium background screen,0.4935,0.0,0.7655,0.0,0.0,0.0
+cg00495860,,Eliminated at healthy-endometrium background screen,0.828,0.0,0.0,1.0,0.0005,0.0
+cg16707405,CDO1,Eliminated at healthy-endometrium background screen,0.8205,0.3905,0.0,1.0,1.0,0.0
+cg14179581,,Passed healthy screen; eliminated at four-gate triage,0.7985,0.7465,0.477,1.0,0.0,0.0
+cg06765217,,Passed healthy screen; eliminated at four-gate triage,0.8095,1.0,0.0,0.0,0.0,0.0
+cg17203063,KCNC2;KCNC2;KCNC2,Eliminated at healthy-endometrium background screen,0.7935,0.0,0.0,1.0,0.0,0.0
+cg08480826,LOC645323,Eliminated at healthy-endometrium background screen,0.809,0.002,0.0,0.748,0.003,0.0
+cg02758612,,Eliminated at healthy-endometrium background screen,0.8025,0.17,0.0,0.161,0.0,0.0
+cg00881585,,Eliminated at healthy-endometrium background screen,0.747,0.0,1.0,0.0035,0.003,0.0
+cg25900280,TBX4,Passed healthy screen; eliminated at four-gate triage,0.63,1.0,0.0,0.1475,0.006,0.0
+cg00963378,GJA3,Eliminated at healthy-endometrium background screen,0.649,0.0045,0.0,0.0,0.0,0.0
+cg10304637,NRN1,Eliminated at healthy-endometrium background screen,0.758,0.267,0.0,0.386,0.002,0.0
+cg25622154,,Eliminated at healthy-endometrium background screen,0.6815,0.0,0.0,0.02,0.0,0.0
+cg18777299,STIM2;STIM2;STIM2,Eliminated at healthy-endometrium background screen,0.5165,0.0,0.0,0.0,0.0,0.0
+cg08520743,PON3,Eliminated at healthy-endometrium background screen,0.978,0.0,,0.3995,0.0415,0.0
+cg01268824,ZNF154,Eliminated at healthy-endometrium background screen,0.7525,0.0,0.0,0.02,0.0,0.0
+cg05255522,TFAP2D,Passed healthy screen; eliminated at four-gate triage,0.5415,1.0,,1.0,0.0,0.0
+cg25352836,TSSK6;TSSK6,Eliminated at healthy-endometrium background screen,0.7085,0.0,0.0,0.0,0.0,0.0
+cg03161803,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg27049766,ZNF154;ZNF154,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,1.0,0.0,0.0
+cg15508809,,Eliminated at healthy-endometrium background screen,0.8395,0.0,0.002,0.0005,0.0,0.0
+cg23049458,L1TD1;L1TD1,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.746,0.0,0.0
+cg15618978,TRIM59,Eliminated at healthy-endometrium background screen,0.4865,0.0,,0.0,0.0,0.0
+cg26132774,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.7325,0.0055,0.0
+cg23244790,PCDHGA4;PCDHGA11;PCDHGA11;PCDHGA9;PCDHGA1;PCDHGB1;PCDHGB6;PCDHGA12;PCDHGB3;PCDHGB7;PCDHGA6;PCDHGA8;PCDHGA10;PCDHGA12;PCDHGA5;PCDHGB4;PCDHGA3;PCDHGA2;PCDHGA7;PCDHGB2;PCDHGB5,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,1.0,0.0,0.0
+cg21647227,TBX15,Eliminated at healthy-endometrium background screen,0.9235,0.389,0.0,0.0225,0.0,0.0
+cg27324426,ZNF154,Eliminated at healthy-endometrium background screen,0.9705,0.0,,0.398,0.0,0.0
+cg13644317,,Eliminated at healthy-endometrium background screen,0.667,0.0,0.0,0.0005,0.0,0.0
+cg14451926,NKX2-6,Eliminated at healthy-endometrium background screen,0.5475,0.0,0.0,0.0,0.0,0.0
+cg12021814,,Eliminated at healthy-endometrium background screen,0.993,0.0,0.0,0.0,0.0,0.0
+cg16419441,DPYS,Eliminated at healthy-endometrium background screen,0.6245,0.0,0.0,0.0,0.0,0.0
+cg21907579,TBX5;TBX5;TBX5;TBX5,Eliminated at healthy-endometrium background screen,0.901,0.0,0.0,0.0,0.0,0.0
+cg14558529,,Eliminated at healthy-endometrium background screen,0.8065,0.0,,0.0005,0.0,0.0
+cg00793935,TRPM8,Eliminated at healthy-endometrium background screen,0.5955,0.0,,0.0,0.0,0.0
+cg22346476,,Eliminated at healthy-endometrium background screen,0.9945,0.0,0.0,0.0,0.0,0.0
+cg10903903,,Eliminated at healthy-endometrium background screen,1.0,0.032,0.0,0.7325,0.0275,0.0
+cg21790626,ZNF154;ZNF154,Eliminated at healthy-endometrium background screen,1.0,0.0075,0.0,1.0,0.1175,0.0
+cg03731268,L1TD1;L1TD1,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg08393041,ZIC4;ZIC4;ZIC4;ZIC4;ZIC4,Eliminated at healthy-endometrium background screen,1.0,0.0,0.6805,0.0005,0.0,0.0
+cg26444528,PCDH17,Eliminated at healthy-endometrium background screen,0.6465,0.0,0.0,0.0,0.0,0.0
+cg16768018,ZIC4;ZIC4;ZIC4;ZIC4;ZIC4,Eliminated at healthy-endometrium background screen,0.669,0.0,0.0,0.021,0.0,0.0
+cg02058408,,Eliminated at healthy-endometrium background screen,0.6755,0.0,0.0,0.0,0.0,0.0
+cg14065115,,Eliminated at healthy-endometrium background screen,0.946,0.0,0.0,0.3995,0.0,0.0
+cg12378187,FEZF2,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg20232986,,Eliminated at healthy-endometrium background screen,1.0,0.0005,1.0,0.7255,0.0,0.0
+cg12877723,PENK;PENK,Eliminated at healthy-endometrium background screen,0.8365,0.0,0.0,0.394,0.0,0.0
+cg02925601,,Eliminated at healthy-endometrium background screen,0.999,0.0,0.005,0.0,0.0,0.0
+cg12374721,C17orf93;PRAC,Eliminated at healthy-endometrium background screen,1.0,0.001,0.0,1.0,0.0,0.0
+cg23619399,,Eliminated at healthy-endometrium background screen,0.9935,0.0,0.0,0.0,0.0,0.0
+cg27563985,CBLN4,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.044,0.0,0.0
+cg27288226,,Eliminated at healthy-endometrium background screen,0.6225,0.0,0.0,0.0,0.0,0.0
+cg16509851,,Eliminated at healthy-endometrium background screen,0.753,0.0,0.0,1.0,0.0415,0.0
+cg07489502,PCDHGA4;PCDHGA11;PCDHGA11;PCDHGA9;PCDHGA1;PCDHGB1;PCDHGB6;PCDHGA12;PCDHGB3;PCDHGB7;PCDHGA6;PCDHGA8;PCDHGA10;PCDHGA12;PCDHGA5;PCDHGB4;PCDHGA3;PCDHGA2;PCDHGA7;PCDHGB2;PCDHGB5,Eliminated at healthy-endometrium background screen,1.0,0.1005,0.0,0.0,0.0,0.0
+cg15540820,EOMES,Eliminated at healthy-endometrium background screen,0.9185,0.0,0.0,0.031,0.0,0.0
+cg23290344,NEFM;NEFM,Eliminated at healthy-endometrium background screen,0.9515,0.0,0.0,0.746,0.0,0.0
+cg24863335,NETO1,Eliminated at healthy-endometrium background screen,0.95,0.0,0.0,0.1395,0.0,0.0
+cg14605874,,Eliminated at healthy-endometrium background screen,0.81,0.0,0.0,0.0,0.0,0.0
+cg16391955,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.1655,0.0,0.0
+cg06083330,POU4F2,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,1.0,0.0,0.0
+cg26251325,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.7625,0.0,1.0,0.0
+cg02683759,,Eliminated at healthy-endometrium background screen,0.9575,0.0045,0.0,1.0,0.0,0.0
+cg00767010,,Eliminated at healthy-endometrium background screen,1.0,0.0,1.0,0.0,0.0,0.0
+cg15854847,NKX2-6,Eliminated at healthy-endometrium background screen,0.9275,0.0,0.0,0.746,0.0,0.0
+cg12260798,HIST1H4F,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.409,1.0,0.0
+cg26885268,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg19635505,KLHL33,Eliminated at healthy-endometrium background screen,0.5965,0.0,0.0,0.0,0.0,0.0
+cg20935165,,Passed healthy screen; eliminated at four-gate triage,1.0,1.0,0.0,1.0,0.0,0.0
+cg21425842,HIST1H4F,Eliminated at healthy-endometrium background screen,1.0,0.0005,1.0,0.746,1.0,0.0
+cg15980797,OLIG3;OLIG3,Eliminated at healthy-endometrium background screen,0.895,0.0,0.0,0.0,0.0,0.0
+cg19312667,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.001,0.0
+cg11475550,NPY,Region-coverage pool probe,0.988,1.0,1.0,0.068,0.0,0.0
+cg13163930,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,1.0,0.0,0.0
+cg08260959,HIST1H4F,Eliminated at healthy-endometrium background screen,1.0,0.0,,0.008,1.0,0.0
+cg06122871,,Eliminated at healthy-endometrium background screen,0.7285,0.0,0.0,0.0005,0.0,0.0
+cg06544405,,Eliminated at healthy-endometrium background screen,0.913,0.0,0.9955,0.0005,0.0,0.0
+cg19607165,,Passed healthy screen; eliminated at four-gate triage,1.0,0.7445,0.0,0.0,0.4585,0.0
+cg27615388,HTR1A,Eliminated at healthy-endometrium background screen,0.9825,0.0,0.0,0.1665,0.0,0.0
+cg11855615,SLFN12L,Eliminated at healthy-endometrium background screen,1.0,0.0045,0.0,0.0,0.0,0.0
+cg22827864,,Eliminated at healthy-endometrium background screen,0.4755,0.0,0.0,0.0,0.0,0.0
+cg13688123,HIST2H2BA,Eliminated at healthy-endometrium background screen,0.7575,0.389,1.0,0.0,0.0,0.0
+cg05016408,LOC134466,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0035,0.0,0.0
+cg02798576,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.021,0.0,0.0
+cg14428146,NKX2-6,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,1.0,0.0015,0.0
+cg18698788,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.746,0.037,0.0
+cg26151467,SOX1;SOX1,Eliminated at healthy-endometrium background screen,1.0,0.0,0.5495,0.0,0.0,0.0
+cg06685737,,Eliminated at healthy-endometrium background screen,0.874,0.0,0.3355,0.0,0.0,0.0
+cg15409097,GEFT;GEFT,Eliminated at healthy-endometrium background screen,0.5645,0.0,0.0,0.0,0.0,0.0
+cg08377819,,Eliminated at healthy-endometrium background screen,0.634,0.0,0.0,0.0,0.7415,0.0
+cg08074534,SIM1,Eliminated at healthy-endometrium background screen,1.0,0.0,,0.74,1.0,0.0
+cg18011916,TBX20;TBX20,Eliminated at healthy-endometrium background screen,0.9695,0.0,0.9455,0.0,0.0,0.0
+cg18016181,FOXD4,Eliminated at healthy-endometrium background screen,0.7015,0.0,,0.7325,1.0,0.0
+cg26751356,,Eliminated at healthy-endometrium background screen,0.9845,0.0,0.354,0.0025,0.0,0.0
+cg03099208,NXPH1,Eliminated at healthy-endometrium background screen,0.718,0.0,0.0,0.0,0.0,0.0
+cg14526718,,Eliminated at healthy-endometrium background screen,0.6885,0.0,0.0,0.0,0.0,0.0
+cg10603004,NKX2-6,Eliminated at healthy-endometrium background screen,0.6625,0.0,0.0,0.02,0.0,0.0
+cg11891393,SIM1,Eliminated at healthy-endometrium background screen,0.999,0.0,0.837,0.0,0.0,0.0
+cg02036261,OTX2,Eliminated at healthy-endometrium background screen,0.999,0.0,0.0,0.027,0.0,0.0
+cg19206146,,Eliminated at healthy-endometrium background screen,0.9525,0.0,0.0,0.0,0.0,0.0
+cg21063722,SIM1,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.186,0.0,0.0
+cg01580681,HAND2,Eliminated at healthy-endometrium background screen,0.661,0.0,0.0,0.0,0.0,0.0
+cg00282510,,Eliminated at healthy-endometrium background screen,1.0,0.0,1.0,0.0,1.0,0.0
+cg24884703,,Passed healthy screen; eliminated at four-gate triage,1.0,0.7465,0.0,1.0,0.0305,0.0
+cg19267252,,Eliminated at healthy-endometrium background screen,0.841,0.0,0.0,0.0215,0.0,0.0
+cg17284804,TCTEX1D1,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,1.0,0.2635,0.0
+cg22747746,NKX2-6,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,1.0,0.0,0.0
+cg19401033,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg04927931,SIM1,Eliminated at healthy-endometrium background screen,1.0,0.0,,1.0,0.0065,0.0
+cg01764252,,Eliminated at healthy-endometrium background screen,0.615,0.0,0.0,0.0,0.0,0.0
+cg00379720,,Eliminated at healthy-endometrium background screen,0.865,0.0,0.0,0.3835,0.0,0.0
+cg03694713,NKX2-6,Eliminated at healthy-endometrium background screen,0.855,0.0,0.0,0.0225,0.0,0.0
+cg05809668,,Eliminated at healthy-endometrium background screen,1.0,0.0665,0.0,1.0,0.0,0.0
+cg21692450,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg08696165,SIX3,Eliminated at healthy-endometrium background screen,1.0,0.0,0.366,0.66,0.3385,0.0
+cg03117976,FAM38B,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.746,0.006,0.0
+cg02561482,TFAP2B,Eliminated at healthy-endometrium background screen,0.9205,0.0,0.0,0.0505,0.0,0.0
+cg23250574,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg24886257,,Passed healthy screen; eliminated at four-gate triage,1.0,0.7445,0.0,0.1755,0.0,0.0
+cg17754510,,Passed healthy screen; eliminated at four-gate triage,1.0,1.0,0.0,0.0065,0.052,0.0
+cg03184290,PITX2;PITX2,Eliminated at healthy-endometrium background screen,0.608,0.0,0.0,0.0,0.0,0.0
+cg15160263,,Eliminated at healthy-endometrium background screen,1.0,0.0255,0.0,0.748,0.005,0.0
+cg13539545,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.3995,0.0,0.0
+cg22723502,HIST1H4F,Eliminated at healthy-endometrium background screen,1.0,0.0,,0.746,1.0,0.0
+cg12444411,GNA12,Eliminated at healthy-endometrium background screen,0.9985,0.0,0.0,0.0,0.0,0.0
+cg12615761,RAB12,Eliminated at healthy-endometrium background screen,0.99,0.0,0.0,0.1775,0.001,0.0
+cg21054521,,Eliminated at healthy-endometrium background screen,0.5635,0.0,0.0,0.0595,0.0,0.0
+cg02671880,,Eliminated at healthy-endometrium background screen,0.983,0.079,0.0,0.7445,0.0105,0.0
+cg23285459,GNA12,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg23075337,NXPH1,Eliminated at healthy-endometrium background screen,1.0,0.0,0.9475,0.0,0.0,0.0
+cg20092531,,Eliminated at healthy-endometrium background screen,0.8185,0.0,0.0,1.0,1.0,0.0
+cg13438893,,Eliminated at healthy-endometrium background screen,0.9945,0.0,0.0,1.0,0.0285,0.0
+cg06574716,ZNF283,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg02246055,ZFHX3;ZFHX3,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,1.0,0.0
+cg13703871,ZNF177,Eliminated at healthy-endometrium background screen,1.0,0.057,0.0,1.0,0.004,0.0
+cg02852670,KLHL33,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg08065231,ZNF177,Passed healthy screen; eliminated at four-gate triage,1.0,0.7185,0.0,1.0,0.001,0.0
+cg16404371,SLC2A14,Passed healthy screen; eliminated at four-gate triage,0.9875,1.0,0.0,0.7345,0.016,0.0
+cg02002551,NEFM;NEFM,Eliminated at healthy-endometrium background screen,0.999,0.0,1.0,0.0,0.0,0.0
+cg04612444,PENK;PENK,Passed healthy screen; eliminated at four-gate triage,1.0,1.0,0.0,1.0,0.0,0.0
+cg09465698,PCDHGA4;PCDHGA6;PCDHGB6;PCDHGA9;PCDHGA1;PCDHGA8;PCDHGA5;PCDHGB1;PCDHGB4;PCDHGA3;PCDHGA2;PCDHGA7;PCDHGB2;PCDHGB5;PCDHGB6;PCDHGB3,Eliminated at healthy-endometrium background screen,1.0,0.1215,0.0,0.7325,0.0,0.0
+cg23063647,ZNF876P,Eliminated at healthy-endometrium background screen,1.0,0.0,0.584,0.0,0.0,0.0
+cg13021619,NKX2-6,Eliminated at healthy-endometrium background screen,0.9985,0.0,0.0015,0.746,0.0,0.0
+cg24722073,,Eliminated at healthy-endometrium background screen,0.8595,0.01,0.0,1.0,0.0,0.0
+cg11286063,PCDHB18,Eliminated at healthy-endometrium background screen,0.9995,0.0,1.0,,1.0,0.0
+cg06629130,,Eliminated at healthy-endometrium background screen,0.913,0.0,0.0,0.741,0.0,0.0
+cg21143896,GNA12,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg22400703,CNRIP1;CNRIP1,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg23619365,,Eliminated at healthy-endometrium background screen,0.9995,0.0,0.0,0.058,0.0,0.0
+cg04851268,GHSR;GHSR,Eliminated at healthy-endometrium background screen,0.6825,0.0,1.0,0.0,0.0,0.0
+cg05255275,C14orf39,Eliminated at healthy-endometrium background screen,1.0,0.0005,1.0,0.002,0.0,0.0
+cg26831119,PITX2;PITX2,Eliminated at healthy-endometrium background screen,0.608,0.0,0.0,0.0,0.0,0.0
+cg10320410,,Eliminated at healthy-endometrium background screen,0.728,0.0,0.0,0.0,0.0,0.0
+cg24189904,ZNF177,Eliminated at healthy-endometrium background screen,0.528,0.41,0.0,0.1775,0.0,0.0
+cg05783139,BOLL;BOLL,Eliminated at healthy-endometrium background screen,0.7635,0.1795,0.0,0.375,1.0,0.0
+cg06495961,DPP6;DPP6,Eliminated at healthy-endometrium background screen,0.634,0.0,0.0,0.001,0.0,0.0
+cg04150495,MIR663,Eliminated at healthy-endometrium background screen,0.9995,0.2515,0.0,0.1785,0.0,0.0
+cg16099023,,Eliminated at healthy-endometrium background screen,0.9975,0.0515,1.0,0.1135,0.0,0.0
+cg03361164,,Eliminated at healthy-endometrium background screen,0.7035,0.0,0.0,0.0,0.0,0.0
+cg03965496,,Eliminated at healthy-endometrium background screen,0.9955,0.0,0.0,0.0,0.0,0.0
+cg16458866,,Eliminated at healthy-endometrium background screen,0.998,0.0,0.0,0.0,0.0,0.0
+cg15219228,TULP1,Eliminated at healthy-endometrium background screen,0.665,0.0,0.0,0.746,0.0,0.0
+cg24624901,,Eliminated at healthy-endometrium background screen,0.9995,0.0005,0.232,0.187,0.0,0.0
+cg21627409,PCDHGA4;PCDHGA11;PCDHGA11;PCDHGA9;PCDHGA1;PCDHGB1;PCDHGB6;PCDHGA12;PCDHGB3;PCDHGB7;PCDHGA6;PCDHGA8;PCDHGA10;PCDHGA5;PCDHGB4;PCDHGA3;PCDHGA2;PCDHGA12;PCDHGB2;PCDHGA7;PCDHGB5,Eliminated at healthy-endometrium background screen,0.865,0.0,0.0,0.015,0.0,0.0
+cg16404157,CLEC14A,Eliminated at healthy-endometrium background screen,0.642,0.0,0.0,0.003,0.0,0.0
+cg07405182,,Eliminated at healthy-endometrium background screen,0.998,0.0,0.281,0.0,0.0,0.0
+cg08812189,ZIC4;ZIC4;ZIC4;ZIC4;ZIC4,Eliminated at healthy-endometrium background screen,0.753,0.0,0.0,0.3885,0.0,0.0
+cg16664405,,Eliminated at healthy-endometrium background screen,0.961,0.0,0.0,0.3925,0.0,0.0
+cg18384778,,Eliminated at healthy-endometrium background screen,1.0,0.008,0.0,0.1625,0.0,0.0
+cg13678973,ELAVL4,Eliminated at healthy-endometrium background screen,0.9995,0.0085,0.0,1.0,0.001,0.0
+cg26568372,,Eliminated at healthy-endometrium background screen,0.697,0.0,0.002,0.0,0.0,0.0
+cg26299169,PDX1,Eliminated at healthy-endometrium background screen,0.9995,0.0,0.0,0.746,0.0,0.0
+cg05486035,,Eliminated at healthy-endometrium background screen,0.7085,0.0,0.0,0.746,0.008,0.0
+cg20395967,MIR663,Eliminated at healthy-endometrium background screen,1.0,0.0005,0.0,1.0,0.0,0.0
+cg19777067,,Eliminated at healthy-endometrium background screen,0.85,0.0,0.0,0.746,0.0,0.0
+cg07316846,,Eliminated at healthy-endometrium background screen,0.999,0.0,0.0,0.001,0.0,0.0
+cg04425920,,Eliminated at healthy-endometrium background screen,0.831,0.0,0.0,0.411,0.0,0.0
+cg18782604,SIM1,Eliminated at healthy-endometrium background screen,0.9955,0.0005,0.0,0.026,0.0005,0.0
+cg16886987,DSCR6,Eliminated at healthy-endometrium background screen,0.9995,0.012,0.828,0.397,0.0,0.0
+cg00028935,ZIC4;ZIC4;ZIC4,Eliminated at healthy-endometrium background screen,0.8975,0.0015,0.0,1.0,0.0,0.0
+cg07078225,,Eliminated at healthy-endometrium background screen,0.6725,0.0,0.0,0.746,0.0755,0.0
+cg07160746,KCNS1,Eliminated at healthy-endometrium background screen,0.6815,0.0,0.0,0.0,0.0,0.0
+cg24813736,,Eliminated at healthy-endometrium background screen,0.7955,0.0,1.0,0.0575,0.0,0.0
+cg07495363,BOLL;BOLL,BOLL partner probe (regional characterisation; not prespecified for positivity calls),0.999,0.7555,0.0,1.0,1.0,0.0
+cg25947489,,Eliminated at healthy-endometrium background screen,0.8255,0.0,0.0,0.1775,0.0005,0.0
+cg03679755,,Eliminated at healthy-endometrium background screen,0.9955,0.0,0.0,1.0,0.0,0.0
+cg10746936,,Eliminated at healthy-endometrium background screen,0.9365,0.0,0.0,0.3995,0.0,0.0
+cg14968543,,Eliminated at healthy-endometrium background screen,0.9965,0.0,1.0,0.0,0.0,0.0
+cg24362812,FAM38B,Eliminated at healthy-endometrium background screen,0.9965,0.0,0.0,1.0,0.0,0.0
+cg03014326,ANKRD30B;ANKRD30B,Eliminated at healthy-endometrium background screen,0.999,0.0,0.0,0.0,0.0,0.0
+cg14564076,DPP6,Eliminated at healthy-endometrium background screen,0.659,0.0,0.0,0.1665,0.0,0.0
+cg24452128,,Passed healthy screen; eliminated at four-gate triage,0.9955,1.0,0.0,0.0,0.006,0.0
+cg04413320,PCDH17,Eliminated at healthy-endometrium background screen,0.993,0.0,1.0,0.0,0.0,0.0
+cg26064774,,Eliminated at healthy-endometrium background screen,0.998,0.0,0.0,0.001,0.0,0.0
+cg25741487,,Eliminated at healthy-endometrium background screen,0.9955,0.0,0.0,1.0,0.0,0.0
+cg16865446,PAX6;PAX6;PAX6,Eliminated at healthy-endometrium background screen,0.996,0.0,0.0,0.165,0.0,0.0
+cg27260772,TFAP2B,Eliminated at healthy-endometrium background screen,0.998,0.0005,0.0,0.0005,0.0,0.0
+cg19098763,ELAVL4,Eliminated at healthy-endometrium background screen,0.989,0.0055,0.0,1.0,0.0,0.0
+cg08958294,GRM1;GRM1,Eliminated at healthy-endometrium background screen,0.9955,0.0015,0.0,1.0,0.0,0.0
+cg15439725,,Eliminated at healthy-endometrium background screen,0.9985,0.0,0.575,0.0,0.0,0.0
+cg15285250,NXPH1,Eliminated at healthy-endometrium background screen,0.9775,0.5025,1.0,0.065,0.0,0.0
+cg24127719,,Eliminated at healthy-endometrium background screen,0.7425,0.001,0.0,0.0,0.0,0.0
+cg05221167,ZNF560,Eliminated at healthy-endometrium background screen,0.7135,0.0,0.0,0.0005,0.0,0.0
+cg23536473,FERD3L,Eliminated at healthy-endometrium background screen,0.922,0.0,0.0,0.003,0.0,0.0
+cg13208922,,Eliminated at healthy-endometrium background screen,0.671,0.001,0.0,0.0005,0.0,0.0
+cg23894086,,Eliminated at healthy-endometrium background screen,0.864,0.0,0.0,0.1775,0.014,0.0
+cg06204711,TBX15,Eliminated at healthy-endometrium background screen,0.997,0.0,1.0,0.0015,0.0,0.0
+cg17299899,,Eliminated at healthy-endometrium background screen,0.9975,0.0,0.0,0.0,0.0,0.0
+cg00334063,ZIC4;ZIC4;ZIC4;ZIC4;ZIC4,Eliminated at healthy-endometrium background screen,0.9975,0.0,0.0,0.185,0.0,0.0
+cg15415452,,Eliminated at healthy-endometrium background screen,0.9795,0.502,0.0,1.0,0.0,0.0
+cg06060135,IRX1,Eliminated at healthy-endometrium background screen,0.975,0.377,0.0,1.0,0.013,0.0
+cg12827262,TULP1,Eliminated at healthy-endometrium background screen,0.9645,0.002,1.0,1.0,0.0,0.0
+cg18172877,IRX4,Eliminated at healthy-endometrium background screen,0.5605,0.0,0.0,0.0,0.0,0.0
+cg11229513,PRDM14,Eliminated at healthy-endometrium background screen,0.9985,0.0,0.0,0.0075,0.0,0.0
+cg03526459,,Eliminated at healthy-endometrium background screen,0.9965,0.0,0.0,0.0,0.0,0.0
+cg05571581,,Eliminated at healthy-endometrium background screen,0.997,0.002,0.0,1.0,0.0105,0.0
+cg21549195,,Eliminated at healthy-endometrium background screen,0.9965,0.0,0.0,0.0,0.0,0.0
+cg18177414,,Passed healthy screen; eliminated at four-gate triage,0.9965,1.0,0.0,0.3895,0.0,0.0
+cg14207728,TCTEX1D1,Eliminated at healthy-endometrium background screen,0.524,0.0,,1.0,1.0,0.0
+cg16887264,POU4F2,Passed healthy screen; eliminated at four-gate triage,0.9955,1.0,0.0,1.0,0.0275,0.0
+cg18468354,,Eliminated at healthy-endometrium background screen,0.7045,0.0,0.0,0.0,0.0,0.0
+cg17201760,ZNF876P,Eliminated at healthy-endometrium background screen,0.7825,0.41,0.833,0.0005,0.0,0.0
+cg26836696,,Passed healthy screen; eliminated at four-gate triage,0.9785,0.735,0.0,1.0,0.0,0.0
+cg14891410,WIT1,Eliminated at healthy-endometrium background screen,0.966,0.0,0.0,0.0,0.0,0.0
+cg24847685,,Eliminated at healthy-endometrium background screen,0.9665,0.1355,,1.0,0.0,0.0
+cg11471772,SIM1,Eliminated at healthy-endometrium background screen,0.9955,0.0,0.0,0.746,0.0,0.0
+cg17384889,NKAPL,Eliminated at healthy-endometrium background screen,0.997,0.0,0.0,0.002,0.0,0.0
+cg16670554,LBXCOR1,Eliminated at healthy-endometrium background screen,0.888,0.0,0.0,0.3925,0.0,0.0
+cg25406138,POU4F2,Eliminated at healthy-endometrium background screen,0.9395,0.0,1.0,0.742,0.0,0.0
+cg06572465,PCDHGA4;PCDHGA9;PCDHGA1;PCDHGB1;PCDHGB6;PCDHGB3;PCDHGA11;PCDHGB7;PCDHGA6;PCDHGA8;PCDHGA11;PCDHGA10;PCDHGA5;PCDHGB4;PCDHGA3;PCDHGA11;PCDHGA2;PCDHGB2;PCDHGA7;PCDHGB5,Eliminated at healthy-endometrium background screen,0.9975,0.0,,1.0,0.335,0.0
+cg23720064,SIM1,Eliminated at healthy-endometrium background screen,0.9955,0.0,1.0,0.399,0.02,0.0
+cg16909733,ANKMY1;ANKMY1,Eliminated at healthy-endometrium background screen,0.593,0.0,0.0,0.008,0.0,0.0
+cg07112131,H2AFJ;H2AFJ,Eliminated at healthy-endometrium background screen,0.9295,0.0,0.0,0.0,0.0,0.0
+cg19610529,,Eliminated at healthy-endometrium background screen,0.99,0.0,0.0,0.0,0.0025,0.0
+cg17840719,ZNF454;ZNF454,Eliminated at healthy-endometrium background screen,0.998,0.1855,,0.0225,0.0,0.0
+cg19585597,LOC134466,Eliminated at healthy-endometrium background screen,0.773,0.0,0.0,0.0095,0.0,0.0
+cg04389897,TFAP2A;TFAP2A;TFAP2A,Eliminated at healthy-endometrium background screen,0.9965,0.0005,,0.0,0.0,0.0
+cg24978630,,Eliminated at healthy-endometrium background screen,0.9285,0.0,1.0,0.746,0.0,0.0
+cg20555674,ARL5C,Eliminated at healthy-endometrium background screen,0.7555,0.0005,0.0,0.0695,0.0185,0.0
+cg15222899,,Eliminated at healthy-endometrium background screen,0.767,0.0,0.0,0.02,0.0,0.0
+cg19801921,,Eliminated at healthy-endometrium background screen,0.9205,0.0,1.0,0.0,0.0,0.0
+cg07152216,,Eliminated at healthy-endometrium background screen,0.9955,0.0,0.0,0.187,0.0,0.0
+cg13356896,BOLL;BOLL,Eliminated at healthy-endometrium background screen,0.998,0.0005,0.0,0.0055,0.0,0.0
+cg23989821,C14orf39,Passed healthy screen; eliminated at four-gate triage,0.9535,1.0,0.0,0.172,0.335,0.0
+cg21591742,HOXD10,Eliminated at healthy-endometrium background screen,0.5985,0.0,0.0,0.0,0.0,0.0
+cg20234976,SIM1,Eliminated at healthy-endometrium background screen,0.6445,0.0225,0.0,1.0,1.0,0.0
+cg10643691,,Eliminated at healthy-endometrium background screen,0.8835,0.0,,0.746,0.0,0.0
+cg03072621,A2BP1;A2BP1;A2BP1;A2BP1,Eliminated at healthy-endometrium background screen,0.9445,0.0,0.0,0.741,0.0,0.0
+cg18507379,PCDHGA4;PCDHGA6;PCDHGA9;PCDHGA1;PCDHGA8;PCDHGA5;PCDHGB1;PCDHGB6;PCDHGB4;PCDHGA3;PCDHGA2;PCDHGA7;PCDHGB2;PCDHGB6;PCDHGB5;PCDHGB3,Tier B comparator (PCDHGA cluster),0.9495,1.0,0.0,1.0,1.0,0.0
+cg01921432,BARHL2,Eliminated at healthy-endometrium background screen,0.7825,0.0,0.0,0.394,0.0,0.0
+cg14898623,NCOR2;NCOR2,Eliminated at healthy-endometrium background screen,0.7835,0.0,0.0,0.0,1.0,0.0
+cg11130317,,Eliminated at healthy-endometrium background screen,0.9945,0.0,0.0,0.746,0.0,0.0
+cg19254119,ZNF560,Eliminated at healthy-endometrium background screen,0.997,0.5055,0.0,0.7255,0.0,0.0
+cg07907386,PHOX2B,Eliminated at healthy-endometrium background screen,0.9955,0.0,0.0,1.0,0.0,0.0
+cg09864185,,Eliminated at healthy-endometrium background screen,0.9955,0.0,1.0,0.13,0.0,0.0
+cg01791371,,Eliminated at healthy-endometrium background screen,0.861,0.0,0.0,0.388,0.0005,0.0
+cg27136844,,Eliminated at healthy-endometrium background screen,0.7675,0.0,0.0,0.0,0.0,0.0
+cg21573200,,Eliminated at healthy-endometrium background screen,0.649,0.0,0.0,0.729,0.0,0.0
+cg08190858,,Eliminated at healthy-endometrium background screen,0.9985,0.0945,0.0,1.0,0.0105,0.0
+cg26630231,,Eliminated at healthy-endometrium background screen,0.5455,0.003,0.0,1.0,0.0,0.0
+cg25691167,FERD3L,Eliminated at healthy-endometrium background screen,0.9985,0.136,0.0,0.746,0.002,0.0
+cg22558291,LOC646405,Eliminated at healthy-endometrium background screen,0.9985,0.0,0.0,0.0,0.0,0.0
+cg21935981,C22orf9;C22orf9,Eliminated at healthy-endometrium background screen,0.493,0.0,0.0,0.0,0.0,0.0
+cg22592142,DUOXA2,Eliminated at healthy-endometrium background screen,0.9735,0.0,0.0,0.0,0.0,0.0
+cg00459623,,Passed healthy screen; eliminated at four-gate triage,0.8165,1.0,0.0,0.0,0.341,0.0
+cg18082337,ZIC4;ZIC4;ZIC4,Passed healthy screen; eliminated at four-gate triage,0.75,1.0,0.0,1.0,0.0005,0.0
+cg14523847,DPP6;DPP6,Eliminated at healthy-endometrium background screen,0.574,0.0,0.0,0.0005,0.0,0.0
+cg10055501,PITX2;PITX2;PITX2,Eliminated at healthy-endometrium background screen,0.4865,0.0,0.0,0.0,0.0,0.0
+cg04651781,,Eliminated at healthy-endometrium background screen,0.997,0.001,0.0,0.3765,0.0,0.0
+cg18486102,FAIM2,Eliminated at healthy-endometrium background screen,0.7555,0.0,0.0,0.746,1.0,0.0
+cg15975865,GYPC;GYPC;GYPC;GYPC,Eliminated at healthy-endometrium background screen,0.997,0.0,0.0,0.746,1.0,0.0
+cg22524061,OSR2;OSR2,Eliminated at healthy-endometrium background screen,0.997,0.0,0.0,0.0,0.0,0.0
+cg00097146,SIX3,Eliminated at healthy-endometrium background screen,0.9955,0.1185,0.0,1.0,0.0,0.0
+cg24604013,SOX1,Eliminated at healthy-endometrium background screen,0.7425,0.383,0.0,0.729,0.0,0.0
+cg12656020,,Eliminated at healthy-endometrium background screen,0.783,0.0,0.0,0.0,0.0,0.0
+cg13692446,,Passed healthy screen; eliminated at four-gate triage,0.6705,1.0,0.0,1.0,0.0,0.0
+cg06496344,,Eliminated at healthy-endometrium background screen,0.729,0.287,0.0,1.0,0.0,0.0
+cg14002960,NOL4,Eliminated at healthy-endometrium background screen,0.7155,0.0,0.0,0.374,0.0,0.0
+cg18096722,,Region-coverage pool probe,0.6045,0.735,1.0,1.0,0.0,0.0
+cg03774803,BOLL;BOLL;BOLL,Eliminated at healthy-endometrium background screen,0.9975,0.0,0.0,0.0015,0.264,0.0
+cg04193970,,Eliminated at healthy-endometrium background screen,0.9595,0.0,0.0,0.0,0.0,0.0
+cg11115235,,Eliminated at healthy-endometrium background screen,0.9965,0.015,1.0,0.1685,0.0,0.0
+cg17165841,LOC200726,Eliminated at healthy-endometrium background screen,0.6095,0.0,0.0,0.1615,0.0,0.0
+cg21195256,C14orf23;C14orf23,Eliminated at healthy-endometrium background screen,0.688,0.0,0.0,0.0015,0.0,0.0
+cg03612357,CABC1,Eliminated at healthy-endometrium background screen,0.6075,0.0,0.0,0.0,0.0,0.0
+cg05928342,ZNF177,Eliminated at healthy-endometrium background screen,0.9985,0.48,0.0,1.0,0.0,0.0
+cg08029281,,Eliminated at healthy-endometrium background screen,0.954,0.0,0.0,0.0005,0.0,0.0
+cg09290600,,Eliminated at healthy-endometrium background screen,0.9795,0.0,1.0,0.02,0.0,0.0
+cg08850461,,Eliminated at healthy-endometrium background screen,0.7425,0.0,0.0,0.006,0.0,0.0
+cg11260046,MEI1;MEI1,Eliminated at healthy-endometrium background screen,0.8905,0.0005,0.0,0.008,0.086,0.0
+cg25340966,TBX15,Region-coverage pool probe,0.998,0.73,0.0,0.746,0.749,0.0
+cg18117367,PCDHA6;PCDHA2;PCDHA1;PCDHA7;PCDHA1;PCDHA6;PCDHA5;PCDHA7;PCDHA3;PCDHA4,Eliminated at healthy-endometrium background screen,0.9975,0.0,1.0,0.0,0.0,0.0
+cg04974290,,Eliminated at healthy-endometrium background screen,0.9975,0.0015,0.0,1.0,0.0,0.0
+cg25416153,,Eliminated at healthy-endometrium background screen,0.8965,0.0,0.0,0.0,0.217,0.0
+cg10364040,HOXD10,Eliminated at healthy-endometrium background screen,0.998,0.0085,,0.0,0.0,0.0
+cg04970570,,Eliminated at healthy-endometrium background screen,0.9975,0.0215,0.0,0.0,0.0,0.0
+cg23161999,,Eliminated at healthy-endometrium background screen,0.997,0.0575,0.0,1.0,0.011,0.0
+cg19166302,PARP15,Eliminated at healthy-endometrium background screen,0.6085,0.0,0.0,0.746,0.003,0.0
+cg03175771,PRR14,Eliminated at healthy-endometrium background screen,0.994,0.0,0.0,0.0,0.0,0.0
+cg05093169,PHOX2A,Eliminated at healthy-endometrium background screen,0.544,0.0,0.0,0.175,0.0,0.0
+cg19968840,DUOXA2,Eliminated at healthy-endometrium background screen,0.998,0.0,0.0,0.1155,0.0,0.0
+cg21587238,,Eliminated at healthy-endometrium background screen,0.946,0.0,0.0,0.0,0.0,0.0
+cg10682299,PITX2;PITX2,Eliminated at healthy-endometrium background screen,0.772,0.0,0.1365,0.0,0.0,0.0
+cg11642106,,Eliminated at healthy-endometrium background screen,0.994,0.0,0.0,0.1775,0.0,0.0
+cg20295537,,Eliminated at healthy-endometrium background screen,0.8005,0.0,1.0,0.008,0.0,0.0
+cg10703826,TBX15;TBX15,Eliminated at healthy-endometrium background screen,0.9965,0.022,0.0,0.746,0.0005,0.0
+cg02213103,SOX2OT,Eliminated at healthy-endometrium background screen,0.529,0.0,1.0,0.0,0.0,0.0
+cg13046832,C14orf23,Passed healthy screen; eliminated at four-gate triage,0.995,0.735,0.0,1.0,0.003,0.0
+cg05639246,,Region-coverage pool probe,0.946,1.0,1.0,0.0,1.0,0.0
+cg09632273,DDAH2,Eliminated at healthy-endometrium background screen,0.677,0.0,0.0,0.0,0.0,0.0
+cg01104724,,Eliminated at healthy-endometrium background screen,0.711,0.0,0.0,0.001,0.0,0.0
+cg18158151,C2orf74;C2orf74,Eliminated at healthy-endometrium background screen,0.996,0.0,0.0,0.746,1.0,0.0
+cg04511041,PCDHB18,Eliminated at healthy-endometrium background screen,0.995,0.0005,1.0,0.729,0.0,0.0
+cg17138769,VAX1,Eliminated at healthy-endometrium background screen,0.9915,0.0,0.0,1.0,0.037,0.0
+cg24245418,NPY,Eliminated at healthy-endometrium background screen,0.995,0.492,0.0,0.1835,0.0415,0.0
+cg22421859,DLX6AS,Eliminated at healthy-endometrium background screen,0.723,0.0,,0.0,1.0,0.0
+cg20034792,,Eliminated at healthy-endometrium background screen,0.9915,0.0,0.0,0.742,0.0005,0.0
+cg25181710,ASXL2,Eliminated at healthy-endometrium background screen,0.5495,0.0,0.0,0.0,0.0,0.0
+cg04591032,,Eliminated at healthy-endometrium background screen,0.9925,0.1595,0.0,0.284,0.0015,0.0
+cg12001304,SPHKAP;SPHKAP,Eliminated at healthy-endometrium background screen,0.974,0.0,0.0,0.011,0.0,0.0
+cg14626309,,Eliminated at healthy-endometrium background screen,0.952,0.0,0.0,0.0,0.0,0.0
+cg11324957,,Passed healthy screen; eliminated at four-gate triage,0.66,0.735,0.0,1.0,0.0,0.0
+cg25095032,DDAH2,Eliminated at healthy-endometrium background screen,0.5305,0.0,0.0,0.0,0.0,0.0
+cg24843380,ZNF454,Passed healthy screen; eliminated at four-gate triage,0.978,1.0,0.0,1.0,0.0,0.0
+cg20998319,,Region-coverage pool probe,1.0,1.0,,1.0,0.0,0.0
+cg10253847,NKAPL,Eliminated at healthy-endometrium background screen,0.7015,0.0,0.0,0.0015,0.0,0.0
+cg22617773,,Eliminated at healthy-endometrium background screen,0.9745,0.147,0.0,1.0,0.721,0.0
+cg14885748,,Eliminated at healthy-endometrium background screen,0.9725,0.0,0.0,0.3835,0.0,0.0
+cg19555331,POU4F2,Eliminated at healthy-endometrium background screen,0.867,0.0025,1.0,1.0,0.0,0.0
+cg23405212,CRYGD,Eliminated at healthy-endometrium background screen,0.8515,0.0,0.0,0.746,1.0,0.0
+cg24315421,,Eliminated at healthy-endometrium background screen,0.919,0.0,0.7895,0.0065,0.0,0.0
+cg14768785,GHSR;GHSR,Passed healthy screen; eliminated at four-gate triage,0.914,1.0,0.0,1.0,0.341,0.0
+cg25164649,,Eliminated at healthy-endometrium background screen,0.957,0.0,1.0,1.0,0.0,0.0
+cg08545287,A2BP1;A2BP1,Eliminated at healthy-endometrium background screen,0.9425,0.051,0.0,0.1835,0.0,0.0
+cg25060829,ZSCAN12;ZSCAN12,Eliminated at healthy-endometrium background screen,0.917,0.0275,0.0,1.0,1.0,0.0
+cg02387803,ZIC4;ZIC4;ZIC4,Eliminated at healthy-endometrium background screen,0.952,0.4825,0.0,1.0,0.0,0.0
+cg19690984,,Eliminated at healthy-endometrium background screen,0.904,0.0,0.0,0.7325,0.749,0.0
+cg22861116,PCDHGA4;PCDHGA7;PCDHGA6;PCDHGA1;PCDHGA5;PCDHGB1;PCDHGA3;PCDHGA2;PCDHGB2;PCDHGA7;PCDHGB3,Eliminated at healthy-endometrium background screen,0.925,0.0,0.0,0.1715,0.0,0.0
+cg08411068,ZNF709;ZNF709,Eliminated at healthy-endometrium background screen,0.829,0.0,0.0,0.0,0.0,0.0
+cg18722841,PHOX2A,Eliminated at healthy-endometrium background screen,0.88,0.0,0.0,0.175,0.0,0.0
+cg05099508,SPAG6;SPAG6;SPAG6;SPAG6,Region-coverage pool probe,0.6985,1.0,0.0,1.0,1.0,0.0
+cg23288059,CLEC14A,Eliminated at healthy-endometrium background screen,0.6095,0.003,0.0,0.746,0.0,0.0
+cg23829024,HIST1H1A,Eliminated at healthy-endometrium background screen,0.866,0.0,0.0,1.0,1.0,0.0
+cg21629500,C5orf38,Eliminated at healthy-endometrium background screen,0.8595,0.0,0.0,0.0695,0.0,0.0
+cg15638709,,Eliminated at healthy-endometrium background screen,0.6135,0.0,0.0,0.069,0.0,0.0
+cg22614239,ZIC4;ZIC4;ZIC4;ZIC4;ZIC4,Eliminated at healthy-endometrium background screen,0.657,0.0,0.0,0.009,0.0,0.0
+cg03409187,,Eliminated at healthy-endometrium background screen,0.8965,0.0,0.0,0.7325,0.53,0.0
+cg19651694,PHOX2A;PHOX2A,Eliminated at healthy-endometrium background screen,0.7765,0.0465,0.0,0.175,0.0,0.0
+cg05091238,,Eliminated at healthy-endometrium background screen,0.955,0.0,0.0,0.0,0.0,0.0
+cg25113237,,Passed healthy screen; eliminated at four-gate triage,0.776,0.735,0.0,1.0,0.1115,0.0
+cg00963169,ELAVL4,Passed healthy screen; eliminated at four-gate triage,0.7615,1.0,0.0,1.0,0.02,0.0
+cg05221057,,Passed healthy screen; eliminated at four-gate triage,0.826,1.0,0.0,1.0,0.0,0.0
+cg18294691,,Passed healthy screen; eliminated at four-gate triage,0.956,0.735,0.0,0.0015,0.0,0.0
+cg05870739,PCDHGA4;PCDHGA9;PCDHGA1;PCDHGB1;PCDHGB6;PCDHGA11;PCDHGA11;PCDHGA11;PCDHGB3;PCDHGA11;PCDHGB7;PCDHGA6;PCDHGA8;PCDHGA11;PCDHGA10;PCDHGA5;PCDHGB4;PCDHGA3;PCDHGA11;PCDHGA2;PCDHGA7;PCDHGB2;PCDHGB5,Eliminated at healthy-endometrium background screen,0.947,0.0,0.0,1.0,0.335,0.0
+cg26597242,GABRA1;GABRA1;GABRA1;GABRA1;GABRA1,Eliminated at healthy-endometrium background screen,0.952,0.0,1.0,0.0,0.0,0.0
+cg11171221,,Eliminated at healthy-endometrium background screen,0.6265,0.0,0.0,0.729,0.0,0.0
+cg12880658,CDO1;CDO1,Eliminated at healthy-endometrium background screen,0.5835,0.0,0.991,1.0,0.0095,0.0
+cg14470895,CDO1,Eliminated at healthy-endometrium background screen,0.9535,0.068,0.0,1.0,1.0,0.0
+cg24403845,SORCS1;SORCS1,Eliminated at healthy-endometrium background screen,0.6795,0.395,0.0,1.0,0.0205,0.0
+cg23180938,CDO1,Tier B comparator (CDO1),0.9535,0.7465,0.0,1.0,1.0,0.0
+cg21851351,GSX1,Eliminated at healthy-endometrium background screen,0.947,0.1915,0.0,1.0,0.0,0.0
+cg10443049,NXPH1,Eliminated at healthy-endometrium background screen,0.7255,0.0155,1.0,0.742,0.0,0.0
+cg08158952,ZNF835,Eliminated at healthy-endometrium background screen,0.707,0.005,0.0,1.0,0.0,0.0
+cg26527487,LPPR5;LPPR5,Eliminated at healthy-endometrium background screen,0.6485,0.0,0.9945,0.0,0.0,0.0
+cg05855917,ZIC4;ZIC4;ZIC4,Eliminated at healthy-endometrium background screen,0.6675,0.043,1.0,1.0,0.0015,0.0
+cg18617005,PCDHGA4;PCDHGA6;PCDHGA9;PCDHGA1;PCDHGA8;PCDHGA5;PCDHGB1;PCDHGB6;PCDHGB4;PCDHGA3;PCDHGA2;PCDHGA7;PCDHGB2;PCDHGB6;PCDHGB5;PCDHGB3,Region-coverage pool probe,0.7225,1.0,0.0,1.0,1.0,0.0
+cg01589129,,Passed healthy screen; eliminated at four-gate triage,0.5905,1.0,0.0,1.0,0.0085,0.0
+cg25026529,BARHL2,Passed healthy screen; eliminated at four-gate triage,0.607,0.735,0.0,1.0,0.0105,0.0
+cg22732749,PCDHB15,Eliminated at healthy-endometrium background screen,0.9545,0.0,1.0,0.38,0.0,0.0
+cg11334771,PHOX2A,Passed healthy screen; eliminated at four-gate triage,0.5135,1.0,0.0,1.0,0.0005,0.0
+cg22725685,,Eliminated at healthy-endometrium background screen,0.4105,0.0,0.0,1.0,0.0,0.0
+cg15126975,,Eliminated at healthy-endometrium background screen,0.3785,0.0,0.0,1.0,0.344,0.0
+cg06404175,OXT,Eliminated at healthy-endometrium background screen,0.9505,0.023,0.0,1.0,1.0,0.0
+cg24169669,,Eliminated at healthy-endometrium background screen,0.9425,0.3715,0.0,0.0,0.0,0.0
+cg07984133,CDX2,Eliminated at healthy-endometrium background screen,0.949,0.0,0.0,0.182,0.0,0.0
+cg08189989,,Region-coverage pool probe,0.9555,1.0,0.0,1.0,1.0,0.0
+cg12892506,ZIC4;ZIC4;ZIC4,Eliminated at healthy-endometrium background screen,0.9535,0.377,0.0,1.0,0.0,0.0
+cg01047025,DMRT1,Eliminated at healthy-endometrium background screen,0.951,0.034,1.0,0.397,0.001,0.0
+cg26954968,SIM1,Eliminated at healthy-endometrium background screen,0.937,0.0,0.0,0.384,0.0,0.0
+cg16328106,C2orf74,Eliminated at healthy-endometrium background screen,0.9555,0.0,0.0,0.6875,1.0,0.0
+cg11823511,BARHL2,Eliminated at healthy-endometrium background screen,0.768,0.0,0.0,0.0525,0.0,0.0
+cg10568624,,Eliminated at healthy-endometrium background screen,0.736,0.0,0.0,0.0,0.0,0.0
+cg23780110,ASXL2,Eliminated at healthy-endometrium background screen,0.491,0.0,0.0,0.0,0.0,0.0
+cg08304190,MIR663,Eliminated at healthy-endometrium background screen,0.9525,0.006,0.0,0.1705,0.0,0.0
+cg24757310,C2orf74,Eliminated at healthy-endometrium background screen,0.9475,0.0,0.0,0.746,1.0,0.0
+cg24504927,,Region-coverage pool probe,0.9435,1.0,0.0,1.0,0.741,0.0
+cg21771200,ZNF833,Eliminated at healthy-endometrium background screen,0.9225,0.383,0.0,0.394,0.0005,0.0
+cg13300273,GPR25,Eliminated at healthy-endometrium background screen,0.8085,0.002,0.0,0.001,0.0,0.0
+cg00842351,TJP2;TJP2;TJP2;TJP2,Eliminated at healthy-endometrium background screen,0.574,0.0,0.0,0.0,1.0,0.0
+cg09849405,CMTM1;CMTM1;CMTM2;CMTM1;CMTM1;CMTM1;CMTM1;CMTM1;CMTM1,Eliminated at healthy-endometrium background screen,0.937,0.0,0.0,0.0,1.0,0.0
+cg24837370,SOX11,Eliminated at healthy-endometrium background screen,0.8895,0.0,0.0,0.0005,0.0,0.0
+cg10192893,PHOX2B,Eliminated at healthy-endometrium background screen,0.939,0.0,0.0,1.0,0.0,0.0
+cg09049251,FAIM2,Eliminated at healthy-endometrium background screen,0.6235,0.0,,0.0,0.0,0.0
+cg02253760,,Eliminated at healthy-endometrium background screen,0.92,0.0,,0.3995,0.0065,0.0
+cg18914211,HLA-G,Passed healthy screen; eliminated at four-gate triage,0.9205,1.0,0.0,1.0,0.3715,0.0
+cg03234732,ZNF454,Passed healthy screen; eliminated at four-gate triage,0.9365,0.735,0.0,1.0,0.0,0.0
+cg26590664,ZNF833,Eliminated at healthy-endometrium background screen,0.616,0.299,0.9785,0.394,0.0,0.0
+cg26123605,,Eliminated at healthy-endometrium background screen,0.917,0.0025,1.0,1.0,0.0,0.0
+cg03079395,,Eliminated at healthy-endometrium background screen,0.838,0.0,1.0,0.0,0.0,0.0
+cg16987900,PCDHA2;PCDHA1;PCDHA1;PCDHA6;PCDHA5;PCDHA6;PCDHA3;PCDHA4;PCDHA6,Eliminated at healthy-endometrium background screen,0.53,0.0,0.0,0.0,0.0,0.0
+cg25732462,LYPD5,Passed healthy screen; eliminated at four-gate triage,0.8875,0.7305,0.0,1.0,0.0,0.0
+cg03749016,NKX2-6,Region-coverage pool probe,0.9665,1.0,1.0,1.0,0.0,0.0
+cg26783057,VAX1,Eliminated at healthy-endometrium background screen,0.8995,0.0,0.0,0.069,1.0,0.0
+cg14278853,,Eliminated at healthy-endometrium background screen,0.9065,0.4735,0.0,1.0,1.0,0.0
+cg01031101,NKAPL,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg15790037,ARL5C,Tier B comparator (ARL5C),0.7895,1.0,0.0,1.0,1.0,0.0
+cg11898486,LYPD5;LYPD5,Eliminated at healthy-endometrium background screen,0.827,0.0,0.0,1.0,0.0,0.0
+cg23817893,CCDC81;CCDC81;CCDC81;CCDC81,Eliminated at healthy-endometrium background screen,0.7705,0.305,0.0,0.212,0.0,0.0
+cg09788416,,Eliminated at healthy-endometrium background screen,0.8665,0.0065,0.0,1.0,0.0,0.0
+cg11827910,PAX6;PAX6;PAX6,Eliminated at healthy-endometrium background screen,0.5955,0.0,0.0,0.0,0.001,0.0
+cg16922279,PHOX2A,Eliminated at healthy-endometrium background screen,0.513,0.0005,,1.0,0.0,0.0
+cg01689438,,Eliminated at healthy-endometrium background screen,0.6975,0.0795,1.0,0.3785,0.0,0.0
+cg12373208,TMEM101,Eliminated at healthy-endometrium background screen,0.8175,0.0,0.0,0.004,1.0,0.0
+cg11432962,,Eliminated at healthy-endometrium background screen,0.6995,0.025,1.0,0.025,0.0,0.0
+cg19848629,,Eliminated at healthy-endometrium background screen,0.6345,0.0,1.0,0.001,0.0,0.0
+cg11213690,,Passed healthy screen; eliminated at four-gate triage,0.831,1.0,0.0,0.3765,0.0,0.0
+cg10580144,C2orf74;C2orf74,Eliminated at healthy-endometrium background screen,0.674,0.0,0.0,0.0,0.0,0.0
+cg07953015,SEPW1,Eliminated at healthy-endometrium background screen,0.8095,0.0,0.3085,0.0,0.0,0.0
+cg19664945,LOC100302652;GPR75,Eliminated at healthy-endometrium background screen,0.49,0.0,0.0,0.0,0.0,0.0
+cg11036833,CDO1,Eliminated at healthy-endometrium background screen,0.6415,0.0275,0.0,1.0,1.0,0.0
+cg02811232,,Eliminated at healthy-endometrium background screen,0.5165,0.0,1.0,0.0,0.0,0.0
+cg21843616,,Eliminated at healthy-endometrium background screen,0.563,0.0,0.0,0.0,0.0,0.0
+cg02155398,,Passed healthy screen; eliminated at four-gate triage,0.818,1.0,0.0,1.0,0.0,0.0
+cg04543008,PHOX2A,Passed healthy screen; eliminated at four-gate triage,0.5105,1.0,0.0,1.0,0.004,0.0
+cg11250081,C21orf29,Eliminated at healthy-endometrium background screen,0.7265,0.006,1.0,0.055,0.0,0.0
+cg13482308,PAX5,Passed healthy screen; eliminated at four-gate triage,0.515,1.0,0.0,1.0,0.0,0.0
+cg07817024,,Eliminated at healthy-endometrium background screen,0.454,0.0,1.0,0.0005,0.0,0.0
+cg16971668,EOMES,Eliminated at healthy-endometrium background screen,0.8025,0.0,,0.391,0.0,0.0
+cg21485303,,Eliminated at healthy-endometrium background screen,0.4245,0.0,0.0005,0.0,0.0,0.0
+cg09122096,,Eliminated at healthy-endometrium background screen,0.611,0.0,0.0,0.0,0.025,0.0
+cg27393010,,Eliminated at healthy-endometrium background screen,0.6345,0.1855,,0.7275,0.0,0.0
+cg00674706,,Eliminated at healthy-endometrium background screen,0.5025,0.0,0.0,1.0,0.001,0.0
+cg16439198,CYP1B1,Tier B comparator (CYP1B1),0.488,1.0,0.0,1.0,1.0,0.0
+cg10109500,GHSR;GHSR,Tier B comparator (GHSR),0.639,1.0,0.0,1.0,0.562,0.0
+cg15014975,RUNX3;RUNX3,Eliminated at healthy-endometrium background screen,0.448,0.0,0.0,0.0,0.0,0.0
+cg10812708,,Region-coverage pool probe,0.568,1.0,0.0,1.0,1.0,0.0
+cg18724430,,Passed healthy screen; eliminated at four-gate triage,0.624,0.7185,0.0,1.0,0.0,0.0
+cg01216370,WDR69,Eliminated at healthy-endometrium background screen,0.584,0.0,0.0,1.0,1.0,0.0
+cg23322933,,Eliminated at healthy-endometrium background screen,0.5845,0.051,0.0,0.0,0.0,0.0
+cg18130044,,Passed healthy screen; eliminated at four-gate triage,0.6075,1.0,0.0,0.3905,0.2565,0.0
+cg07676859,SSTR4,Eliminated at healthy-endometrium background screen,0.3395,0.074,0.0,0.075,0.0,0.0
+cg14094983,NXPH1,Passed healthy screen; eliminated at four-gate triage,0.499,1.0,0.0,0.729,0.0275,0.0
+cg19653212,GUCA1A,Eliminated at healthy-endometrium background screen,0.4825,0.001,0.0,1.0,0.0415,0.0
+cg27546977,,Eliminated at healthy-endometrium background screen,0.4575,0.0,0.0,0.1655,0.0,0.0
+cg07068674,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.879,0.0,0.0,0.0
+cg17518215,,Eliminated at healthy-endometrium background screen,0.708,0.0,0.0,0.0,0.0,0.0
+cg07028396,,Eliminated at healthy-endometrium background screen,0.8975,0.0,0.0,0.0,0.0,0.0
+cg17555825,,Eliminated at healthy-endometrium background screen,0.9995,0.0,0.0,0.0005,0.0,0.0
+cg08668316,,Eliminated at healthy-endometrium background screen,0.6245,0.0,0.0,0.0,0.0,0.0
+cg08828819,PON3,Eliminated at healthy-endometrium background screen,0.608,0.0,0.0,0.183,0.0305,0.0
+cg05661282,ZNF154;ZNF154,Eliminated at healthy-endometrium background screen,1.0,0.0015,0.0,0.746,0.356,0.0
+cg24945701,,Eliminated at healthy-endometrium background screen,0.5795,0.0,0.0,0.0005,0.0,0.0
+cg13067553,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0,0.0,0.0
+cg25200152,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.007,0.003,0.0
+cg00840332,LEP,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.009,0.0,0.0
+cg06594404,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.006,0.0,0.0
+cg03457729,,Eliminated at healthy-endometrium background screen,1.0,0.0,0.0,0.0005,0.0,0.0
+cg08668790,ZNF154,Eliminated at healthy-endometrium background screen,0.64,0.0,0.0,0.3925,0.0,0.0
+cg03242265,,Eliminated at healthy-endometrium background screen,0.5485,0.0,0.0,0.0,0.0,0.0
+cg01075271,,Region-coverage pool probe,0.9565,1.0,1.0,0.061,0.0,0.0
