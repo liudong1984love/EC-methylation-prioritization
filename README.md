@@ -2,13 +2,13 @@
 
 Analysis code accompanying the manuscript:
 
-> **Population- and compartment-informed prioritization of DNA methylation markers for endometrial cancer: an in silico evaluation of BOLL and ZSCAN12** (manuscript v9.22)
+> **Population- and compartment-informed prioritization of DNA methylation markers for endometrial cancer: an in silico evaluation of BOLL and ZSCAN12** (manuscript v9.23)
 
 The study re-analyses public 450K/EPIC methylation data to prioritise DNA methylation
 regions for prospective validation in premenopausal abnormal uterine bleeding (AUB)
 cohorts, triaging candidates against five background dimensions (healthy premenopausal
 endometrium, a symptomatic/benign endometrial proxy, menstrual cycle, cervical scrapes
-and purified blood cells). It is a computational prioritisation study: the outputs are
+and blood-reference fractions). It is a computational prioritisation study: the outputs are
 candidate regions (BOLL, ZSCAN12) and a 23-probe experimental pool (plus a 26-probe
 extended sensitivity set), **not** a validated diagnostic panel.
 
@@ -29,7 +29,9 @@ results/candidate_regions.tsv   BOLL and ZSCAN12 lead regions (hg38 + hg19 coord
 results/v917_*.csv              v9.17 verification results (see below)
 results/v917_figure3_compartment.png, v917_figure4_crosscohort.png
 results/v921_figure3_compartment.png  Figure 3 with corrected Table 6 legend (v9.21+)
-results/v922_selection_funnel_bootstrap.csv  per-probe full-funnel bootstrap (v9.22, S2f)
+results/v922_selection_funnel_bootstrap.csv  per-probe bootstrap, v9.22 design (superseded)
+results/v923_selection_funnel_bootstrap.csv  per-probe conditional selection-stability (v9.23, S2f)
+results/stability_cache.npz     cached analysis matrices for scripts 81-84
 ```
 
 ## Environment
@@ -69,29 +71,38 @@ subfolders. Key stages:
 | Pairing-fingerprint diagnostics, age-concordant drift (v9.17) | 70b, 70c |
 | Table 8 control-column recomputation (v9.17) | 70c |
 | Figure generation (v9.17) | 70d, 70e |
-| Full-funnel bootstrap stability (v9.22) | 81-83 |
+| Conditional selection-stability analysis (v9.22/v9.23) | 81-84 |
 
-## v9.22 selection-funnel stability
+## v9.23 conditional selection-stability analysis
 
-Scripts 81-83 resample the entire single-probe selection funnel (2,000 stratified
-bootstrap replicates, seed 20260926), conditional on the 476-probe audit universe:
+Scripts 81-84 recompute the complete per-probe single-probe funnel (discovery criteria,
+four background gates, effective three-component score, re-ranking) inside 2,000
+stratified bootstrap replicates, conditional on the fixed 476-probe audit universe.
+Because the 28 premenopausal tumours are a subset of the 431 tumours, the two disjoint
+strata (28 premenopausal / 403 other tumours) are resampled separately and pooled per
+replicate (nested design; v9.23). Genome-wide significance is not re-derived: this is a
+conditional selection-stability analysis, not a re-run of the genome-wide screen.
 
 - `81_stability_extract.py`: builds the analysis matrices (TCGA beta for the 476 probes;
   the four background cohorts) and **validates exact reproduction** of every audit point
   estimate (max |diff| <= 0.0005) before any resampling. Note the data sources per gate:
   gate 1 = minfi-noob `GSE73949_betas.rds`; gate 2 = GSE223817 controls (n=347);
   gate 3 = GSE46306 HPV-negative cervix (n=20); gate 4 = GSE35069 all 60 samples,
-  per-fraction P95 then max across the 10 cell-type fractions.
-- `82_stability_bootstrap.py`: the main loop (discovery criteria, four gates, effective
-  three-component score, re-ranking per replicate) -> `results/v922_selection_funnel_bootstrap.csv`.
+  per-fraction P95 then max across the 10 blood-reference fractions.
+- `82_stability_bootstrap.py`: the main nested-resampling loop with per-condition failure
+  decomposition -> `results/v923_selection_funnel_bootstrap.csv`.
 - `83_stability_pre_influence.py`: premenopausal-case influence (leave-one-out jackknife
-  over the 28 premenopausal tumours; bootstrap variant without the premenopausal
-  criterion/score term).
+  over the 28 premenopausal tumours).
+- `84_stability_pre_removal_v2.py`: nested-design variant without the premenopausal
+  criterion/score term.
 
-Headline results (Supplementary Note S2.9): ZSCAN12 anchor Tier A in 53.0% of replicates
-(rank 1 in 99.9% when retained); BOLL anchor Tier A in 46.7% (rank <=5 in 99.8% when
-retained); background gates 1/2/4 stable in 100%; leading reserve candidate cg06014401
-(EOMES, 38.9%).
+Headline results (Supplementary Note S2.9, v9.23): ZSCAN12 anchor Tier A in 53.1% of
+replicates (rank 1 in all retained replicates; attrition = overall positivity at the
+>=0.90 cut-off, 45.1% failures); BOLL anchor Tier A in 48.3% (rank <=5 in 99.8% when
+retained; decomposition: overall positivity 23.1% failures, premenopausal positivity
+16.1%, cervical gate 28.4% failures, other gates 100% stable); leading reserve candidate
+cg06014401 (EOMES, 38.3%). Removing the premenopausal criterion: BOLL 57.1%,
+ZSCAN12 54.9%.
 
 ## v9.17 verification results
 
