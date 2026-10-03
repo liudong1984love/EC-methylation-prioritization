@@ -1,0 +1,5 @@
+cohort,n_samples,point_pass,ci_pass,point_pass_ci_fail
+healthy17_GSE73949_noob,17,65,0,65
+benign347_GSE223817,347,71,56,15
+cervix20_HPVneg_GSE46306,20,178,0,178
+blood60_GSE35069,6,57,0,57

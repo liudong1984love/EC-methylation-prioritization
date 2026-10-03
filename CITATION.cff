@@ -8,8 +8,8 @@ authors:
   - family-names: "Chen"
     given-names: "Yubing"
     affiliation: "Zhongshan School of Medicine, Sun Yat-sen University"
-version: v1.1.1
-date-released: "2026-09-27"
+version: v1.2.0
+date-released: "2026-10-03"
 license: MIT
 keywords:
   - endometrial cancer

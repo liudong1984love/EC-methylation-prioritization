@@ -1,0 +1,13 @@
+probe,marker,adj_P,delta_beta,case_pos03,pre_pos03,ctrl_p95,in_strict_476,strict_fail,enters_at_loosest_grid
+cg23180938,CDO1 (EcPredict kit),1.2971245514845701e-67,0.611,0.949,0.929,0.135,True,(passes discovery),True
+cg13495205,"AJAP1 (kit, top-dBeta)",5.493451542959749e-34,0.604,0.842,0.929,0.157,False,case_pos<0.90,True
+cg11835068,"AJAP1 (kit, low-bg)",3.6504876012643504e-31,0.433,0.791,0.964,0.134,False,dBeta<0.50;case_pos<0.90,False
+cg15484532,AJAP1 (kit),7.5860819244899e-33,0.42,0.868,1.0,0.271,False,dBeta<0.50;case_pos<0.90,True
+cg03502002,"GALR1 (kit, top-dBeta)",5.19021434769927e-14,0.456,0.629,0.821,0.263,False,dBeta<0.50;case_pos<0.90;pre_pos<0.85,False
+cg04534765,GALR1 (kit),9.245994278614e-15,0.404,0.647,0.893,0.164,False,dBeta<0.50;case_pos<0.90,False
+cg10390058,GALR1 (kit),7.404224396668199e-19,0.403,0.703,0.893,0.194,False,dBeta<0.50;case_pos<0.90,False
+cg25390440,GYPC (WID-qEC),1.1766537281084e-47,0.45,0.977,1.0,0.521,False,dBeta<0.50;ctrl_p95>0.40,False
+cg27577527,ZSCAN12 (lead),4.0943085440164596e-57,0.614,0.9,0.929,0.165,True,(passes discovery),True
+cg24589459,BOLL anchor (lead),3.51408051169612e-48,0.533,0.91,0.893,0.147,True,(passes discovery),True
+cg07495363,BOLL partner,2.29084038164758e-64,0.59,0.94,1.0,0.213,True,(passes discovery),True
+cg10109500,GHSR,8.72835147274821e-84,0.588,0.951,0.857,0.15,True,(passes discovery),True

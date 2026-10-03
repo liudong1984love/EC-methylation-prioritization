@@ -2,7 +2,7 @@
 
 Analysis code accompanying the manuscript:
 
-> **Population- and compartment-informed prioritization of DNA methylation markers for endometrial cancer: an in silico evaluation of BOLL and ZSCAN12** (manuscript v9.23)
+> **Population- and compartment-informed prioritization of DNA methylation markers for endometrial cancer: an in silico evaluation of BOLL and ZSCAN12** (manuscript v9.29)
 
 The study re-analyses public 450K/EPIC methylation data to prioritise DNA methylation
 regions for prospective validation in premenopausal abnormal uterine bleeding (AUB)
@@ -31,6 +31,14 @@ results/v917_figure3_compartment.png, v917_figure4_crosscohort.png
 results/v921_figure3_compartment.png  Figure 3 with corrected Table 6 legend (v9.21+)
 results/v922_selection_funnel_bootstrap.csv  per-probe bootstrap, v9.22 design (superseded)
 results/v923_selection_funnel_bootstrap.csv  per-probe conditional selection-stability (v9.23, S2f)
+results/v928_gate_proportion_ci_*.csv        background-gate proportions + Wilson CIs (v9.27, S2g/S2h inputs)
+results/v930_expanded_background_476.csv      five additional benign/background cohorts (v9.27, S2h)
+results/v931_pipeline_sensitivity_gse73949.csv  noob vs GMQN pipeline sensitivity (v9.28, S2i)
+results/v932_boll_rule_*.csv                  BOLL five-rule comparison, B=2000 + benign LOO (v9.28, S2j/S2k)
+results/v933_threshold_grid_summary.csv       discovery-threshold grid, 27 cells (v9.29, S2l/S2m)
+results/v934_sampling_paths_*.csv             application-specific gating paths (v9.29, S2n/S2o)
+results/v935_retention_ledger.csv             per-probe retention ledger, 23-pool (v9.29, S2p/Table S10)
+results/v929_figure1_funnel.png               Figure 1 funnel, corrected branch counts (v9.29)
 results/stability_cache.npz     cached analysis matrices for scripts 81-84
 ```
 
@@ -72,6 +80,41 @@ subfolders. Key stages:
 | Table 8 control-column recomputation (v9.17) | 70c |
 | Figure generation (v9.17) | 70d, 70e |
 | Conditional selection-stability analysis (v9.22/v9.23) | 81-84 |
+| Background-gate proportions + Wilson CI, cervix denominator fix (v9.27) | 86, 86b |
+| Expanded benign-background cohorts via EWAS Data Hub (v9.27) | 87 |
+| Pipeline sensitivity noob vs GMQN, GSE73949 (v9.28) | 85 |
+| BOLL five-rule comparison, bootstrap + benign LOO (v9.28) | 88 |
+| Discovery-threshold sensitivity grid (v9.29) | 89 |
+| Application-specific gating paths (v9.29) | 90 |
+| Per-probe retention ledger (v9.29) | 91 |
+| Figure 1 funnel redraw (v9.29) | 92 |
+
+## v9.29 rule-closure revisions (pre-submission)
+
+Four pre-submission analyses close the rule loop requested during internal audit:
+
+- **Discovery-threshold sensitivity** (`89_c4_threshold_sensitivity.py`, v9.29, S2l/S2m):
+  a 27-cell grid over the three discovery cut-offs (delta-beta 0.30/0.40/0.50, overall
+  positivity 0.80/0.85/0.90, premenopausal positivity 0.75/0.80/0.85), re-derived
+  genome-wide (485,512 probes). ZSCAN12 ranks first in 27/27 cells; BOLL anchor passes
+  triage in all cells (rank 3-11). No new low-background candidates enter under the
+  original >=0.90 positivity requirement. CDO1 passes all discovery criteria (it is
+  eliminated only at the background layer); AJAP1 is excluded by the overall-positivity
+  cut-off (84.2%); GALR1/GYPC enter in no cell.
+- **Application-specific gating paths** (`90_c5_sampling_paths.py`, v9.29, S2n/S2o):
+  strict four-gate (2/476), endometrial-brush path (11/476) and cervix/self-sampling
+  path (43/476) compared on both the 476-probe universe and the 23-probe pool. CDO1
+  passes the cervix path (0.055/0.080), consistent with its approved cervical kit role.
+- **Per-probe retention ledger** (`91_retention_ledger.py`, v9.29, Table S10/S2p):
+  all 23 pool probes annotated with entry path (strict / literature-reference /
+  region-coverage), per-gate results, evidence completeness and retention rationale;
+  8/23 are region-coverage probes retained despite failing triage, now disclosed
+  consistently in Figure 1, Table S10 and the main text.
+- **Figure 1 corrections** (`92_figure1_v6.py`): triage elimination count corrected to
+  461/476 (was 457, inconsistent with Table 2); region-coverage branch corrected to
+  15 probes (was 16, which summed to 24 across the four branches vs the 23-probe pool).
+
+Scripts 85-95b are analysis, revision and verification utilities for v9.24-v9.29.
 
 ## v9.23 conditional selection-stability analysis
 
