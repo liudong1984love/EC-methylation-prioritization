@@ -35,7 +35,10 @@ results/v928_gate_proportion_ci_*.csv        background-gate proportions + Wilso
 results/v930_expanded_background_476.csv      five additional benign/background cohorts (v9.27, S2h)
 results/v931_pipeline_sensitivity_gse73949.csv  noob vs GMQN pipeline sensitivity (v9.28, S2i)
 results/v932_boll_rule_*.csv                  BOLL five-rule comparison, B=2000 + benign LOO (v9.28, S2j/S2k)
-results/v933_threshold_grid_summary.csv       discovery-threshold grid, 27 cells (v9.29, S2l/S2m)
+results/v933_threshold_grid_summary.csv       discovery-threshold grid, 27 cells (v9.29, S2l/S2m; superseded by v2)
+results/v936_threshold_grid_summary_v2.csv    corrected grid v2: cache-complete gates + official score (v9.30, S2l)
+results/v936_new_entrants_background_v2.csv   new-entrant gates incl. endometriosis background (v9.30, S2q)
+results/v936_reconciliation.csv               cross-analysis reconciliation of counts/ranks (v9.30, S2r/Table S14)
 results/v934_sampling_paths_*.csv             application-specific gating paths (v9.29, S2n/S2o)
 results/v935_retention_ledger.csv             per-probe retention ledger, 23-pool (v9.29, S2p/Table S10)
 results/v929_figure1_funnel.png               Figure 1 funnel, corrected branch counts (v9.29)
@@ -85,6 +88,7 @@ subfolders. Key stages:
 | Pipeline sensitivity noob vs GMQN, GSE73949 (v9.28) | 85 |
 | BOLL five-rule comparison, bootstrap + benign LOO (v9.28) | 88 |
 | Discovery-threshold sensitivity grid (v9.29) | 89 |
+| Corrected grid v2: cache-complete gates, official score, reconciliation (v9.30) | 89b |
 | Application-specific gating paths (v9.29) | 90 |
 | Per-probe retention ledger (v9.29) | 91 |
 | Figure 1 funnel redraw (v9.29) | 92 |
@@ -113,6 +117,21 @@ Four pre-submission analyses close the rule loop requested during internal audit
 - **Figure 1 corrections** (`92_figure1_v6.py`): triage elimination count corrected to
   461/476 (was 457, inconsistent with Table 2); region-coverage branch corrected to
   15 probes (was 16, which summed to 24 across the four branches vs the 23-probe pool).
+
+## v9.30 reconciliation corrections (pre-submission)
+
+A pre-submission numeric audit found that the v1 threshold grid (89) read gate values from
+the elite audit table, whose unevaluated cells were pipeline-stage completeness artefacts:
+cg15285250 (NXPH1) lacked cervix/blood values in that table but had measured values
+(0.186/0.276) in the stability cache, so v1 wrongly let it pass at the original cell and
+ranked BOLL 3/3 with a simplified score. The corrected grid (`89b_c4_threshold_sensitivity_v2.py`)
+uses cache-complete four-gate values for the 476, de novo four-cohort evaluation for new
+entrants (including the endometriosis background used by the score), and the official
+score_v6 formula. The original cell now reproduces the main analysis exactly: 479 candidates
+(476 + 3 annotation-filtered probes), 2 triage survivors, ZSCAN12 rank 1/2, BOLL rank 2/2;
+BOLL ranks 2-6 across the 27-cell grid; ZSCAN12 ranks first in 27/27 cells. The
+cross-analysis reconciliation table (main funnel 476->65->15->2; C5 paths; C4 v2; pipeline
+sensitivity 15->10) is `results/v936_reconciliation.csv` (manuscript Table S14, Note S2.17).
 
 Scripts 85-95b are analysis, revision and verification utilities for v9.24-v9.29.
 
