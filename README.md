@@ -36,9 +36,14 @@ results/v930_expanded_background_476.csv      five additional benign/background 
 results/v931_pipeline_sensitivity_gse73949.csv  noob vs GMQN pipeline sensitivity (v9.28, S2i)
 results/v932_boll_rule_*.csv                  BOLL five-rule comparison, B=2000 + benign LOO (v9.28, S2j/S2k)
 results/v933_threshold_grid_summary.csv       discovery-threshold grid, 27 cells (v9.29, S2l/S2m; superseded by v2)
-results/v936_threshold_grid_summary_v2.csv    corrected grid v2: cache-complete gates + official score (v9.30, S2l)
-results/v936_new_entrants_background_v2.csv   new-entrant gates incl. endometriosis background (v9.30, S2q)
-results/v936_reconciliation.csv               cross-analysis reconciliation of counts/ranks (v9.30, S2r/Table S14)
+results/v936_threshold_grid_summary_v2.csv    corrected grid v2: cache-complete gates + official score (v9.30; superseded by v3)
+results/v936_new_entrants_background_v2.csv   new-entrant gates incl. endometriosis background (v9.30; superseded)
+results/v936_reconciliation.csv               cross-analysis reconciliation of counts/ranks (v9.30; superseded)
+results/v938_threshold_grid_summary_v3.csv    grid v3: uniform cross-cohort/annotation filters every cell (v9.31, S2l)
+results/v938_new_entrants_background_v3.csv   de novo gates for filter-passing entrants (v9.31, S2q)
+results/v938_reconciliation.csv               cross-analysis reconciliation (v9.31, S2r/Table S14)
+results/v937_gse35069_verified_donors.csv     GSM->donor mapping verified from ArrayExpress SDRF titles (v9.31, S2s)
+results/v937_blood_donorcl_verified.csv       donor-clustered bootstrap with verified donors (identical to S2c)
 results/v934_sampling_paths_*.csv             application-specific gating paths (v9.29, S2n/S2o)
 results/v935_retention_ledger.csv             per-probe retention ledger, 23-pool (v9.29, S2p/Table S10)
 results/v929_figure1_funnel.png               Figure 1 funnel, corrected branch counts (v9.29)
@@ -89,6 +94,8 @@ subfolders. Key stages:
 | BOLL five-rule comparison, bootstrap + benign LOO (v9.28) | 88 |
 | Discovery-threshold sensitivity grid (v9.29) | 89 |
 | Corrected grid v2: cache-complete gates, official score, reconciliation (v9.30) | 89b |
+| Grid v3: uniform filters every cell, 479->476 exact reproduction (v9.31) | 89c |
+| Verified-donor blood bootstrap, BOLL expression n (v9.31) | 97 |
 | Application-specific gating paths (v9.29) | 90 |
 | Per-probe retention ledger (v9.29) | 91 |
 | Figure 1 funnel redraw (v9.29) | 92 |

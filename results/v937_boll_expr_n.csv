@@ -1,0 +1,7 @@
+item,value
+paired_tumours,172.0
+paired_adjacent_normals,24.0
+BOLL_expr_tumour_median_log2x1,0.0
+BOLL_expr_normal_median_log2x1,0.0
+BOLL_expr_gt1_tumour_frac,0.163
+BOLL_expr_gt1_normal_frac,0.0
