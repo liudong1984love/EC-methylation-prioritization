@@ -1,0 +1,47 @@
+Conditional selection-stability analysis within the 476-probe candidate universe
+v3: GSE35069 blood resampled at DONOR level (verified identities, S2s);
+6 donors drawn with replacement, all 10 fractions per drawn donor retained,
+per-fraction P95 then max - preserving cross-fraction donor correlation.
+B = 2000 | seed 20260926 | nested strata: 28 pre + 403 other tumours pooled per replicate
+==========================================================================
+Tier A count per replicate: median 2 IQR 1 - 3 range 0 - 7
+P(both leads Tier A and ranked top-2): 0.148
+
+--- BOLL anchor (cg24589459) ---
+  P(Tier A) = 0.487 | P(discovery ok) = 0.6725 | P(triage ok) = 0.7345
+  discovery-condition failures:  P(dBeta<0.50) = 0.0015  P(overall pos<0.90) = 0.217  P(pre pos<0.85) = 0.1675  P(adjacent-normal P95>0.40) = 0.0
+  gate 1 healthy endometrium: P(fail) = 0.0 | P(pass) = 1.0 | mean bootstrap P95 = 0.1063
+  gate 2 benign surgical: P(fail) = 0.0 | P(pass) = 1.0 | mean bootstrap P95 = 0.1008
+  gate 3 cervix: P(fail) = 0.2655 | P(pass) = 0.7345 | mean bootstrap P95 = 0.1377
+  gate 4 blood: P(fail) = 0.0 | P(pass) = 1.0 | mean bootstrap P95 = 0.1057
+  joint: P(pre>=0.85) = 0.8325 | P(cervix pass) = 0.7345 | P(pre AND cervix ok) = 0.6115
+  rank among Tier A: median 2 | P(rank=1) 0.285 | P(rank<=2) 0.695 | P(rank<=5) 0.997 (n=974)
+  pre_pos03: mean 0.8938 P2.5 0.7848 P97.5 1.0
+--- ZSCAN12 anchor (cg27577527) ---
+  P(Tier A) = 0.5275 | P(discovery ok) = 0.5275 | P(triage ok) = 1.0
+  discovery-condition failures:  P(dBeta<0.50) = 0.0  P(overall pos<0.90) = 0.459  P(pre pos<0.85) = 0.046  P(adjacent-normal P95>0.40) = 0.0
+  gate 1 healthy endometrium: P(fail) = 0.0 | P(pass) = 1.0 | mean bootstrap P95 = 0.0648
+  gate 2 benign surgical: n/a (platform)
+  gate 3 cervix: P(fail) = 0.0 | P(pass) = 1.0 | mean bootstrap P95 = 0.046
+  gate 4 blood: P(fail) = 0.0 | P(pass) = 1.0 | mean bootstrap P95 = 0.0582
+  joint: P(pre>=0.85) = 0.954 | P(cervix pass) = 1.0 | P(pre AND cervix ok) = 0.954
+  rank among Tier A: median 1 | P(rank=1) 1.0 | P(rank<=2) 1.0 | P(rank<=5) 1.0 (n=1055)
+  pre_pos03: mean 0.9291 P2.5 0.8214 P97.5 1.0
+
+Top-15 probes by P(Tier A):
+     probe            gene                                         disposition  P_discovery_retained  P_gate1_pass  P_gate2_pass  P_gate3_pass  P_gate4_pass  P_TierA
+cg27577527 ZSCAN12;ZSCAN12                        Tier A lead (ZSCAN12 anchor)                0.5275        1.0000           NaN        1.0000        1.0000   0.5275
+cg24589459       BOLL;BOLL                           Tier A lead (BOLL anchor)                0.6725        1.0000        1.0000        0.7345        1.0000   0.4870
+cg06014401           EOMES Eliminated at healthy-endometrium background screen                0.9940        0.3765        1.0000        1.0000        1.0000   0.3750
+cg18196782        KIAA1383 Eliminated at healthy-endometrium background screen                0.8960        0.2845           NaN        1.0000        1.0000   0.2565
+cg10617784            VAX2                          Region-coverage pool probe                0.8090        0.7335        1.0000        0.7330        0.3185   0.1475
+cg24961583             NaN Eliminated at healthy-endometrium background screen                0.6590        0.3960        0.9935        1.0000        0.4680   0.1215
+cg24851364             NaN                          Region-coverage pool probe                0.7755        1.0000        1.0000        1.0000        0.0905   0.0705
+cg11751707          CYP1B1 Eliminated at healthy-endometrium background screen                0.8895        0.4800           NaN        0.7410        0.0890   0.0265
+cg24304093             NaN Eliminated at healthy-endometrium background screen                0.9850        0.0350           NaN        0.7285        1.0000   0.0260
+cg03749016          NKX2-6                          Region-coverage pool probe                0.9750        1.0000        1.0000        1.0000        0.0060   0.0060
+cg21425842        HIST1H4F Eliminated at healthy-endometrium background screen                1.0000        0.0015        1.0000        0.7285        1.0000   0.0005
+cg05855917  ZIC4;ZIC4;ZIC4 Eliminated at healthy-endometrium background screen                0.6695        0.0525        1.0000        1.0000        0.0135   0.0005
+cg11294513          ZNF154 Eliminated at healthy-endometrium background screen                0.5855        0.0000        0.0000        0.1795        0.0000   0.0000
+cg19125370             NaN Eliminated at healthy-endometrium background screen                0.6035        0.0000           NaN        0.0000        0.0000   0.0000
+cg08898155            PON3 Eliminated at healthy-endometrium background screen                0.7010        0.0000        0.0000        0.0135        0.0135   0.0000
