@@ -3,3 +3,8 @@ __pycache__/
 
 # manuscript/submission documents live outside the public repo
 *.docx
+*.doc
+*.pdf
+*.pptx
+*.xlsx
+*.xls
