@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+
+# manuscript/submission documents live outside the public repo
+*.docx
